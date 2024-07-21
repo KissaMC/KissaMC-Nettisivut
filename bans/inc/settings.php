@@ -6,13 +6,13 @@ class Settings {
         $this->lang = 'en_US.utf8';
 
         // Database information
-        $this->host = 'localhost';
+        $this->host = '95.217.179.209';
         $this->port = 3306;
 
         $this->database = 'litebans';
 
-        $this->username = '';
-        $this->password = '';
+        $this->username = 'litebans';
+        $this->password = 'KissaMC1!';
 
         // If you set a table prefix in config.yml, set it here as well
         $this->table_prefix = "litebans_";
@@ -47,12 +47,12 @@ class Settings {
 
         // https://secure.php.net/manual/en/timezones.php
         // Example: "Europe/London"
-        $this->timezone = "UTC";
+        $this->timezone = "Europe/Helsinki";
 
         // The date format can be changed here.
         // https://unicode-org.github.io/icu/userguide/format_parse/datetime/#date-field-symbol-table
         // Example output of default format: July 2, 2015, 09:19
-        $this->date_format = 'MMMM d, yyyy, HH:mm';
+        $this->date_format = 'July 21, 2024, 21:50';
 
         // Amount of bans/mutes/warnings to show on each page
         $this->limit_per_page = 10;
