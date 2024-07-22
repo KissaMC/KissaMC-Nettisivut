@@ -6,13 +6,13 @@ class Settings {
         $this->lang = 'en_US.utf8';
 
         // Database information
-        $this->host = 'localhost';
+        $this->host = '95.217.179.209';
         $this->port = 3306;
 
         $this->database = 'litebans';
 
-        $this->username = '';
-        $this->password = '';
+        $this->username = 'u1_PiPSHhX4Xk';
+        $this->password = 'k1fUEUKZ1H5@Mv11HAvBt@Vb';
 
         // If you set a table prefix in config.yml, set it here as well
         $this->table_prefix = "litebans_";
@@ -25,7 +25,7 @@ class Settings {
 
         // Clicking on the header name will send you to this address.
         // $this->name_link = 'https://example.com';
-        $this->name_link = 'index.php';
+        $this->name_link = '#';
 
         // Show server scope column?
         $this->show_server_scope = false;
